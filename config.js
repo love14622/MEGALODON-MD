@@ -8,13 +8,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: || "MEGALODON~MD~VBIX3ZgQ#seNqBzNYQbc7DxGyLBe-MDZL9ctM7WU2RAv5mp7EMl0",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴜᴄᴄᴇssғᴜʟʟʏ ᴠɪᴇᴡᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ-ᴍᴅ*",
 // set the auto reply massage on status reply  
@@ -26,13 +26,13 @@ MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/2ozipw.
 // add custom menu and mention reply image url
 PREFIX: getConfig("PREFIX") || ".", 
 // add your prifix for bot   
-OWNER_NAME: getConfig("OWNER_NAME") || "ᴅʏʙʏ ᴛᴇᴄʜ",
+OWNER_NAME: getConfig("OWNER_NAME") || "᭄♡⃝𝐏𝐀𝐏𝐈☘𝐁𝐄𝐑𝐋𝐈𝐍 𝐓☆𝐖🌹",
 // add bot owner name
 CHATBOT: getConfig("CHATBOT") || "on", 
 //chatbot on/off
-BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",
+BOT_NAME: process.env.BOT_NAME || "᭄♡⃝𝐏𝐀𝐏𝐈☘𝐁𝐄𝐑𝐋𝐈𝐍 𝐓☆𝐖🌹",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",
+STICKER_NAME: process.env.STICKER_NAME || "᭄♡⃝𝐏𝐀𝐏𝐈☘𝐁𝐄𝐑𝐋𝐈𝐍 𝐓☆𝐖🌹",
     
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -41,7 +41,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50946807996",
 // add your bot owner number
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -52,18 +52,18 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 ANTI_BOT: process.env.ANTI_BOT || "true",
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
-ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
-ANTILINK_KICK: process.env.ANTILINK_KICK || "false",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
+ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
+ANTILINK_KICK: process.env.ANTILINK_KICK || "true",
 ANTILINK: process.env.ANTILINK || "false",
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
